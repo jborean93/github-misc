@@ -1,0 +1,336 @@
+2018/05/01 10:44:39 [INFO] Packer version: 1.2.4-dev
+2018/05/01 10:44:39 Packer Target OS/Arch: windows amd64
+2018/05/01 10:44:39 Built with Go Version: go1.10.1
+2018/05/01 10:44:39 Using internal plugin for profitbricks
+2018/05/01 10:44:39 Using internal plugin for virtualbox-iso
+2018/05/01 10:44:39 Using internal plugin for file
+2018/05/01 10:44:39 Using internal plugin for ncloud
+2018/05/01 10:44:39 Using internal plugin for parallels-pvm
+2018/05/01 10:44:39 Using internal plugin for amazon-chroot
+2018/05/01 10:44:39 Using internal plugin for openstack
+2018/05/01 10:44:39 Using internal plugin for azure-arm
+2018/05/01 10:44:39 Using internal plugin for digitalocean
+2018/05/01 10:44:39 Using internal plugin for lxc
+2018/05/01 10:44:39 Using internal plugin for null
+2018/05/01 10:44:39 Using internal plugin for qemu
+2018/05/01 10:44:39 Using internal plugin for alicloud-ecs
+2018/05/01 10:44:39 Using internal plugin for amazon-ebs
+2018/05/01 10:44:39 Using internal plugin for amazon-instance
+2018/05/01 10:44:39 Using internal plugin for hyperv-iso
+2018/05/01 10:44:39 Using internal plugin for hyperv-vmcx
+2018/05/01 10:44:39 Using internal plugin for amazon-ebssurrogate
+2018/05/01 10:44:39 Using internal plugin for docker
+2018/05/01 10:44:39 Using internal plugin for parallels-iso
+2018/05/01 10:44:39 Using internal plugin for scaleway
+2018/05/01 10:44:39 Using internal plugin for virtualbox-ovf
+2018/05/01 10:44:39 Using internal plugin for vmware-iso
+2018/05/01 10:44:39 Using internal plugin for amazon-ebsvolume
+2018/05/01 10:44:39 Using internal plugin for oneandone
+2018/05/01 10:44:39 Using internal plugin for oracle-classic
+2018/05/01 10:44:39 Using internal plugin for googlecompute
+2018/05/01 10:44:39 Using internal plugin for triton
+2018/05/01 10:44:39 Using internal plugin for vmware-vmx
+2018/05/01 10:44:39 Using internal plugin for cloudstack
+2018/05/01 10:44:39 Using internal plugin for lxd
+2018/05/01 10:44:39 Using internal plugin for oracle-oci
+2018/05/01 10:44:39 Using internal plugin for powershell
+2018/05/01 10:44:39 Using internal plugin for puppet-server
+2018/05/01 10:44:39 Using internal plugin for shell-local
+2018/05/01 10:44:39 Using internal plugin for ansible-local
+2018/05/01 10:44:39 Using internal plugin for chef-client
+2018/05/01 10:44:39 Using internal plugin for chef-solo
+2018/05/01 10:44:39 Using internal plugin for converge
+2018/05/01 10:44:39 Using internal plugin for puppet-masterless
+2018/05/01 10:44:39 Using internal plugin for windows-shell
+2018/05/01 10:44:39 Using internal plugin for salt-masterless
+2018/05/01 10:44:39 Using internal plugin for windows-restart
+2018/05/01 10:44:39 Using internal plugin for ansible
+2018/05/01 10:44:39 Using internal plugin for file
+2018/05/01 10:44:39 Using internal plugin for shell
+2018/05/01 10:44:39 Using internal plugin for checksum
+2018/05/01 10:44:39 Using internal plugin for compress
+2018/05/01 10:44:39 Using internal plugin for docker-tag
+2018/05/01 10:44:39 Using internal plugin for vsphere-template
+2018/05/01 10:44:39 Using internal plugin for alicloud-import
+2018/05/01 10:44:39 Using internal plugin for amazon-import
+2018/05/01 10:44:39 Using internal plugin for atlas
+2018/05/01 10:44:39 Using internal plugin for vsphere
+2018/05/01 10:44:39 Using internal plugin for docker-push
+2018/05/01 10:44:39 Using internal plugin for manifest
+2018/05/01 10:44:39 Using internal plugin for vagrant
+2018/05/01 10:44:39 Using internal plugin for vagrant-cloud
+2018/05/01 10:44:39 Using internal plugin for shell-local
+2018/05/01 10:44:39 Using internal plugin for artifice
+2018/05/01 10:44:39 Using internal plugin for docker-import
+2018/05/01 10:44:39 Using internal plugin for docker-save
+2018/05/01 10:44:39 Using internal plugin for googlecompute-export
+2018/05/01 10:44:39 Attempting to open config file: C:\Users\jbore\AppData\Roaming\packer.config
+2018/05/01 10:44:39 [WARN] Config file doesn't exist: C:\Users\jbore\AppData\Roaming\packer.config
+2018/05/01 10:44:39 Packer config: &{DisableCheckpoint:false DisableCheckpointSignature:false PluginMinPort:10000 PluginMaxPort:25000 Builders:map[triton:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-triton openstack:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-openstack digitalocean:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-digitalocean virtualbox-ovf:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-virtualbox-ovf googlecompute:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-googlecompute profitbricks:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-profitbricks amazon-chroot:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-chroot alicloud-ecs:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-alicloud-ecs hyperv-vmcx:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-hyperv-vmcx scaleway:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-scaleway oneandone:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oneandone vmware-vmx:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-vmware-vmx cloudstack:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-cloudstack parallels-pvm:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-parallels-pvm oracle-oci:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oracle-oci lxd:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-lxd file:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-file lxc:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-lxc hyperv-iso:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-hyperv-iso docker:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-docker amazon-ebsvolume:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebsvolume oracle-classic:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oracle-classic virtualbox-iso:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-virtualbox-iso amazon-ebs:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebs parallels-iso:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-parallels-iso vmware-iso:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-vmware-iso azure-arm:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-azure-arm null:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-null qemu:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-qemu amazon-ebssurrogate:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebssurrogate ncloud:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-ncloud amazon-instance:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-instance] PostProcessors:map[docker-import:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-import atlas:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-atlas vagrant-cloud:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vagrant-cloud artifice:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-artifice docker-push:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-push manifest:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-manifest vagrant:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vagrant shell-local:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-shell-local compress:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-compress docker-tag:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-tag alicloud-import:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-alicloud-import docker-save:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-save vsphere-template:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vsphere-template amazon-import:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-amazon-import vsphere:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vsphere checksum:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-checksum googlecompute-export:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-googlecompute-export] Provisioners:map[puppet-server:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-puppet-server shell-local:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-shell-local ansible-local:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-ansible-local windows-shell:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-windows-shell file:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-file chef-client:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-chef-client salt-masterless:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-salt-masterless windows-restart:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-windows-restart chef-solo:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-chef-solo puppet-masterless:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-puppet-masterless ansible:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-ansible powershell:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-powershell converge:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-converge shell:c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-shell]}
+2018/05/01 10:44:39 Setting cache directory: c:\dev\github-misc\packer\pull-6219\packer_cache
+2018/05/01 10:44:39 Loading builder: hyperv-iso
+2018/05/01 10:44:39 Plugin could not be found. Checking same directory as executable.
+2018/05/01 10:44:39 Current exe path: c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe
+2018/05/01 10:44:39 Creating plugin client for path: c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe
+2018/05/01 10:44:39 Starting plugin: c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe []string{"c:\\dev\\go\\src\\github.com\\hashicorp\\packer\\pkg\\windows_amd64\\packer.exe", "plugin", "packer-builder-hyperv-iso"}
+2018/05/01 10:44:39 Waiting for RPC address for: c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 [INFO] Packer version: 1.2.4-dev
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Packer Target OS/Arch: windows amd64
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Built with Go Version: go1.10.1
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Attempting to open config file: C:\Users\jbore\AppData\Roaming\packer.config
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 [WARN] Config file doesn't exist: C:\Users\jbore\AppData\Roaming\packer.config
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Packer config: &{DisableCheckpoint:false DisableCheckpointSignature:false PluginMinPort:10000 PluginMaxPort:25000 Builders:map[] PostProcessors:map[] Provisioners:map[]}
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Setting cache directory: c:\dev\github-misc\packer\pull-6219\packer_cache
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 args: []string{"packer-builder-hyperv-iso"}
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Plugin minimum port: 10000
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Plugin maximum port: 25000
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Plugin address: tcp 127.0.0.1:10000
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Waiting for connection...
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Serving a plugin connection...
+2018/05/01 10:44:39 Loading provisioner: powershell
+2018/05/01 10:44:39 Plugin could not be found. Checking same directory as executable.
+2018/05/01 10:44:39 Current exe path: c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe
+2018/05/01 10:44:39 Creating plugin client for path: c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe
+2018/05/01 10:44:39 Starting plugin: c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe []string{"c:\\dev\\go\\src\\github.com\\hashicorp\\packer\\pkg\\windows_amd64\\packer.exe", "plugin", "packer-provisioner-powershell"}
+2018/05/01 10:44:39 Waiting for RPC address for: c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 [INFO] Packer version: 1.2.4-dev
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Packer Target OS/Arch: windows amd64
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Built with Go Version: go1.10.1
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Attempting to open config file: C:\Users\jbore\AppData\Roaming\packer.config
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 [WARN] Config file doesn't exist: C:\Users\jbore\AppData\Roaming\packer.config
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Packer config: &{DisableCheckpoint:false DisableCheckpointSignature:false PluginMinPort:10000 PluginMaxPort:25000 Builders:map[] PostProcessors:map[] Provisioners:map[]}
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Setting cache directory: c:\dev\github-misc\packer\pull-6219\packer_cache
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 args: []string{"packer-provisioner-powershell"}
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Plugin minimum port: 10000
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Plugin maximum port: 25000
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Plugin address: tcp 127.0.0.1:10000
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Waiting for connection...
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 Serving a plugin connection...
+2018/05/01 10:44:39 ui: [1;32mhyperv-iso output will be in this color.[0m
+2018/05/01 10:44:39 ui: 
+2018/05/01 10:44:39 Build debug mode: false
+2018/05/01 10:44:39 Force build: true
+2018/05/01 10:44:39 On error: 
+2018/05/01 10:44:39 Preparing build: hyperv-iso
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 DiskSize: 40960
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 DiskBlockSize: 32
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 RamSize: 2048
+2018/05/01 10:44:39 packer.exe: 2018/05/01 10:44:39 VMName: packer-hyperv-iso
+2018/05/01 10:44:41 packer.exe: 2018/05/01 10:44:41 Using switch packer-hyperv-iso
+2018/05/01 10:44:41 packer.exe: 2018/05/01 10:44:41 SwitchName: packer-hyperv-iso
+2018/05/01 10:44:41 Waiting on builds to complete...
+2018/05/01 10:44:41 Starting build run: hyperv-iso
+2018/05/01 10:44:41 Running builder: hyperv-iso
+2018/05/01 10:44:41 [INFO] (telemetry) Starting builder hyperv-iso
+2018/05/01 10:44:41 packer.exe: 2018/05/01 10:44:41 Enter method: verifyPSVersion
+2018/05/01 10:44:41 packer.exe: 2018/05/01 10:44:41 $host.version.Major output: 5
+2018/05/01 10:44:41 packer.exe: 2018/05/01 10:44:41 Enter method: verifyPSHypervModule
+2018/05/01 10:44:42 packer.exe: 2018/05/01 10:44:42 Enter method: verifyHypervPermissions
+2018/05/01 10:44:42 ui: [1;32m==> hyperv-iso: Creating temporary directory...[0m
+2018/05/01 10:44:42 ui: [1;32m==> hyperv-iso: Downloading or copying ISO[0m
+2018/05/01 10:44:42 packer.exe: 2018/05/01 10:44:42 Acquiring lock to download: file:///C:/dev/github-misc/packer/pull-6219/7601.17514.101119-1850_x64fre_server_eval_en-us-GRMSXEVAL_EN_DVD.iso
+2018/05/01 10:44:42 ui: [0;32m    hyperv-iso: Downloading or copying: file:///C:/dev/github-misc/packer/pull-6219/7601.17514.101119-1850_x64fre_server_eval_en-us-GRMSXEVAL_EN_DVD.iso[0m
+2018/05/01 10:44:42 packer.exe: 2018/05/01 10:44:42 Parsed URL: &url.URL{Scheme:"file", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/C:/dev/github-misc/packer/pull-6219/7601.17514.101119-1850_x64fre_server_eval_en-us-GRMSXEVAL_EN_DVD.iso", RawPath:"", ForceQuery:false, RawQuery:"", Fragment:""}
+2018/05/01 10:44:42 packer.exe: 2018/05/01 10:44:42 [DEBUG] Using local file: C:/dev/github-misc/packer/pull-6219/7601.17514.101119-1850_x64fre_server_eval_en-us-GRMSXEVAL_EN_DVD.iso
+2018/05/01 10:44:42 packer.exe: 2018/05/01 10:44:42 Verifying checksum of C:/dev/github-misc/packer/pull-6219/7601.17514.101119-1850_x64fre_server_eval_en-us-GRMSXEVAL_EN_DVD.iso
+2018/05/01 10:44:47 packer.exe: 2018/05/01 10:44:47 No floppy files specified. Floppy disk will not be made.
+2018/05/01 10:44:47 ui: [1;32m==> hyperv-iso: Creating switch 'packer-hyperv-iso' if required...[0m
+2018/05/01 10:44:47 ui: [1;32m==> hyperv-iso:     switch 'packer-hyperv-iso' already exists. Will not delete on cleanup...[0m
+2018/05/01 10:44:47 ui: [1;32m==> hyperv-iso: Creating virtual machine...[0m
+2018/05/01 10:44:47 packer.exe: 2018/05/01 10:44:47 No existing virtual harddrive, not attaching.
+2018/05/01 10:44:52 ui: [1;32m==> hyperv-iso: Enabling Integration Service...[0m
+2018/05/01 10:44:53 ui: [1;32m==> hyperv-iso: Setting boot drive to os dvd drive C:/dev/github-misc/packer/pull-6219/7601.17514.101119-1850_x64fre_server_eval_en-us-GRMSXEVAL_EN_DVD.iso ...[0m
+2018/05/01 10:44:54 ui: [1;32m==> hyperv-iso: Mounting os dvd drive C:/dev/github-misc/packer/pull-6219/7601.17514.101119-1850_x64fre_server_eval_en-us-GRMSXEVAL_EN_DVD.iso ...[0m
+2018/05/01 10:44:55 packer.exe: 2018/05/01 10:44:55 No floppy disk, not attaching.
+2018/05/01 10:44:55 ui: [1;32m==> hyperv-iso: Skipping mounting Integration Services Setup Disk...[0m
+2018/05/01 10:44:55 ui: [1;32m==> hyperv-iso: Mounting secondary DVD images...[0m
+2018/05/01 10:44:55 ui: [1;32m==> hyperv-iso: Mounting secondary dvd drive secondary.iso ...[0m
+2018/05/01 10:44:56 packer.exe: 2018/05/01 10:44:56 ISO secondary.iso mounted on DVD controller 1, location 0
+2018/05/01 10:44:56 ui: [1;32m==> hyperv-iso: Configuring vlan...[0m
+2018/05/01 10:44:56 ui: [1;32m==> hyperv-iso: Starting the virtual machine...[0m
+2018/05/01 10:44:58 ui: [1;32m==> hyperv-iso: Host IP for the HyperV machine: 169.254.222.231[0m
+2018/05/01 10:44:58 ui: [1;32m==> hyperv-iso: Typing the boot command...[0m
+2018/05/01 10:44:58 packer.exe: 2018/05/01 10:44:58 Sending char 'a', code '1e9e', shift false
+2018/05/01 10:44:58 packer.exe: 2018/05/01 10:44:58 Special code 'Press' '<enter>' found, replacing with: &{[1c] [9c]}
+2018/05/01 10:44:59 packer.exe: 2018/05/01 10:44:59 [INFO] Waiting 1s
+2018/05/01 10:45:00 packer.exe: 2018/05/01 10:45:00 Sending char 'a', code '1e9e', shift false
+2018/05/01 10:45:00 packer.exe: 2018/05/01 10:45:00 Special code 'Press' '<enter>' found, replacing with: &{[1c] [9c]}
+2018/05/01 10:45:01 packer.exe: 2018/05/01 10:45:01 [INFO] Waiting 1s
+2018/05/01 10:45:02 packer.exe: 2018/05/01 10:45:02 Sending char 'a', code '1e9e', shift false
+2018/05/01 10:45:02 packer.exe: 2018/05/01 10:45:02 Special code 'Press' '<enter>' found, replacing with: &{[1c] [9c]}
+2018/05/01 10:45:02 packer.exe: 2018/05/01 10:45:02 [INFO] Waiting 1s
+2018/05/01 10:45:03 packer.exe: 2018/05/01 10:45:03 Sending char 'a', code '1e9e', shift false
+2018/05/01 10:45:03 packer.exe: 2018/05/01 10:45:03 Special code 'Press' '<enter>' found, replacing with: &{[1c] [9c]}
+2018/05/01 10:45:04 packer.exe: 2018/05/01 10:45:04 Waiting for WinRM, up to timeout: 30m0s
+2018/05/01 10:45:04 ui: [1;32m==> hyperv-iso: Waiting for WinRM to become available...[0m
+2018/05/01 10:45:11 packer.exe: 2018/05/01 10:45:11 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:45:17 packer.exe: 2018/05/01 10:45:17 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:45:24 packer.exe: 2018/05/01 10:45:24 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:45:30 packer.exe: 2018/05/01 10:45:30 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:45:37 packer.exe: 2018/05/01 10:45:37 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:45:43 packer.exe: 2018/05/01 10:45:43 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:45:50 packer.exe: 2018/05/01 10:45:50 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:45:56 packer.exe: 2018/05/01 10:45:56 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:46:03 packer.exe: 2018/05/01 10:46:03 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:46:09 packer.exe: 2018/05/01 10:46:09 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:46:16 packer.exe: 2018/05/01 10:46:16 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:46:22 packer.exe: 2018/05/01 10:46:22 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:46:29 packer.exe: 2018/05/01 10:46:29 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:46:35 packer.exe: 2018/05/01 10:46:35 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:46:42 packer.exe: 2018/05/01 10:46:42 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:46:49 packer.exe: 2018/05/01 10:46:49 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:46:55 packer.exe: 2018/05/01 10:46:55 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:47:02 packer.exe: 2018/05/01 10:47:02 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:47:08 packer.exe: 2018/05/01 10:47:08 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:47:15 packer.exe: 2018/05/01 10:47:15 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:47:21 packer.exe: 2018/05/01 10:47:21 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:47:28 packer.exe: 2018/05/01 10:47:28 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:47:34 packer.exe: 2018/05/01 10:47:34 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:47:41 packer.exe: 2018/05/01 10:47:41 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:47:47 packer.exe: 2018/05/01 10:47:47 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:47:54 packer.exe: 2018/05/01 10:47:54 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:48:00 packer.exe: 2018/05/01 10:48:00 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:48:07 packer.exe: 2018/05/01 10:48:07 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:48:13 packer.exe: 2018/05/01 10:48:13 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:48:20 packer.exe: 2018/05/01 10:48:20 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:48:26 packer.exe: 2018/05/01 10:48:26 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:48:33 packer.exe: 2018/05/01 10:48:33 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:48:39 packer.exe: 2018/05/01 10:48:39 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:48:46 packer.exe: 2018/05/01 10:48:46 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:48:52 packer.exe: 2018/05/01 10:48:52 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:48:59 packer.exe: 2018/05/01 10:48:59 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:49:05 packer.exe: 2018/05/01 10:49:05 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:49:12 packer.exe: 2018/05/01 10:49:12 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:49:18 packer.exe: 2018/05/01 10:49:18 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:49:25 packer.exe: 2018/05/01 10:49:25 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:49:32 packer.exe: 2018/05/01 10:49:32 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:49:38 packer.exe: 2018/05/01 10:49:38 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:49:45 packer.exe: 2018/05/01 10:49:45 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:49:51 packer.exe: 2018/05/01 10:49:51 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:49:58 packer.exe: 2018/05/01 10:49:58 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:50:04 packer.exe: 2018/05/01 10:50:04 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:50:10 packer.exe: 2018/05/01 10:50:10 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:50:17 packer.exe: 2018/05/01 10:50:17 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:50:24 packer.exe: 2018/05/01 10:50:24 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:50:30 packer.exe: 2018/05/01 10:50:30 [INFO] Attempting WinRM connection...
+2018/05/01 10:50:30 packer.exe: 2018/05/01 10:50:30 [DEBUG] connecting to remote shell using WinRM
+2018/05/01 10:50:51 packer.exe: 2018/05/01 10:50:51 [ERROR] connection error: unknown error Post http://169.254.98.142:5985/wsman: dial tcp 169.254.98.142:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2018/05/01 10:50:51 packer.exe: 2018/05/01 10:50:51 [ERROR] WinRM connection err: unknown error Post http://169.254.98.142:5985/wsman: dial tcp 169.254.98.142:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2018/05/01 10:50:57 packer.exe: 2018/05/01 10:50:57 [INFO] Attempting WinRM connection...
+2018/05/01 10:50:57 packer.exe: 2018/05/01 10:50:57 [DEBUG] connecting to remote shell using WinRM
+2018/05/01 10:51:19 packer.exe: 2018/05/01 10:51:19 [ERROR] connection error: unknown error Post http://169.254.98.142:5985/wsman: dial tcp 169.254.98.142:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2018/05/01 10:51:19 packer.exe: 2018/05/01 10:51:19 [ERROR] WinRM connection err: unknown error Post http://169.254.98.142:5985/wsman: dial tcp 169.254.98.142:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2018/05/01 10:51:25 packer.exe: 2018/05/01 10:51:25 [INFO] Attempting WinRM connection...
+2018/05/01 10:51:25 packer.exe: 2018/05/01 10:51:25 [DEBUG] connecting to remote shell using WinRM
+2018/05/01 10:51:46 packer.exe: 2018/05/01 10:51:46 [ERROR] connection error: unknown error Post http://169.254.98.142:5985/wsman: dial tcp 169.254.98.142:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2018/05/01 10:51:46 packer.exe: 2018/05/01 10:51:46 [ERROR] WinRM connection err: unknown error Post http://169.254.98.142:5985/wsman: dial tcp 169.254.98.142:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2018/05/01 10:51:52 packer.exe: 2018/05/01 10:51:52 [INFO] Attempting WinRM connection...
+2018/05/01 10:51:52 packer.exe: 2018/05/01 10:51:52 [DEBUG] connecting to remote shell using WinRM
+2018/05/01 10:52:14 packer.exe: 2018/05/01 10:52:14 [ERROR] connection error: unknown error Post http://169.254.98.142:5985/wsman: dial tcp 169.254.98.142:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2018/05/01 10:52:14 packer.exe: 2018/05/01 10:52:14 [ERROR] WinRM connection err: unknown error Post http://169.254.98.142:5985/wsman: dial tcp 169.254.98.142:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2018/05/01 10:52:20 packer.exe: 2018/05/01 10:52:20 [INFO] Attempting WinRM connection...
+2018/05/01 10:52:20 packer.exe: 2018/05/01 10:52:20 [DEBUG] connecting to remote shell using WinRM
+2018/05/01 10:52:41 packer.exe: 2018/05/01 10:52:41 [ERROR] connection error: unknown error Post http://169.254.98.142:5985/wsman: dial tcp 169.254.98.142:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2018/05/01 10:52:41 packer.exe: 2018/05/01 10:52:41 [ERROR] WinRM connection err: unknown error Post http://169.254.98.142:5985/wsman: dial tcp 169.254.98.142:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2018/05/01 10:52:48 packer.exe: 2018/05/01 10:52:48 [INFO] Attempting WinRM connection...
+2018/05/01 10:52:48 packer.exe: 2018/05/01 10:52:48 [DEBUG] connecting to remote shell using WinRM
+2018/05/01 10:53:09 packer.exe: 2018/05/01 10:53:09 [ERROR] connection error: unknown error Post http://169.254.98.142:5985/wsman: dial tcp 169.254.98.142:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2018/05/01 10:53:09 packer.exe: 2018/05/01 10:53:09 [ERROR] WinRM connection err: unknown error Post http://169.254.98.142:5985/wsman: dial tcp 169.254.98.142:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2018/05/01 10:53:15 packer.exe: 2018/05/01 10:53:15 [INFO] Attempting WinRM connection...
+2018/05/01 10:53:15 packer.exe: 2018/05/01 10:53:15 [DEBUG] connecting to remote shell using WinRM
+2018/05/01 10:53:36 packer.exe: 2018/05/01 10:53:36 [ERROR] connection error: unknown error Post http://169.254.98.142:5985/wsman: dial tcp 169.254.98.142:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2018/05/01 10:53:36 packer.exe: 2018/05/01 10:53:36 [ERROR] WinRM connection err: unknown error Post http://169.254.98.142:5985/wsman: dial tcp 169.254.98.142:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2018/05/01 10:53:43 packer.exe: 2018/05/01 10:53:43 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:53:49 packer.exe: 2018/05/01 10:53:49 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:53:56 packer.exe: 2018/05/01 10:53:56 [INFO] Attempting WinRM connection...
+2018/05/01 10:53:56 packer.exe: 2018/05/01 10:53:56 [DEBUG] connecting to remote shell using WinRM
+2018/05/01 10:54:17 packer.exe: 2018/05/01 10:54:17 [ERROR] connection error: unknown error Post http://169.254.98.142:5985/wsman: dial tcp 169.254.98.142:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2018/05/01 10:54:17 packer.exe: 2018/05/01 10:54:17 [ERROR] WinRM connection err: unknown error Post http://169.254.98.142:5985/wsman: dial tcp 169.254.98.142:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2018/05/01 10:54:23 packer.exe: 2018/05/01 10:54:23 [DEBUG] Error getting WinRM host: No ip address.
+2018/05/01 10:54:30 packer.exe: 2018/05/01 10:54:30 [INFO] Attempting WinRM connection...
+2018/05/01 10:54:30 packer.exe: 2018/05/01 10:54:30 [DEBUG] connecting to remote shell using WinRM
+2018/05/01 10:54:35 packer.exe: 2018/05/01 10:54:35 Checking that WinRM is connected with: 'powershell.exe -EncodedCommand aQBmACAAKABUAGUAcwB0AC0AUABhAHQAaAAgAHYAYQByAGkAYQBiAGwAZQA6AGcAbABvAGIAYQBsADoAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAKQB7ACQAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAPQAnAFMAaQBsAGUAbgB0AGwAeQBDAG8AbgB0AGkAbgB1AGUAJwB9ADsAIABlAGMAaABvACAAIgBXAGkAbgBSAE0AIABjAG8AbgBuAGUAYwB0AGUAZAAuACIA'
+2018/05/01 10:54:35 packer.exe: 2018/05/01 10:54:35 [INFO] starting remote command: powershell.exe -EncodedCommand aQBmACAAKABUAGUAcwB0AC0AUABhAHQAaAAgAHYAYQByAGkAYQBiAGwAZQA6AGcAbABvAGIAYQBsADoAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAKQB7ACQAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAPQAnAFMAaQBsAGUAbgB0AGwAeQBDAG8AbgB0AGkAbgB1AGUAJwB9ADsAIABlAGMAaABvACAAIgBXAGkAbgBSAE0AIABjAG8AbgBuAGUAYwB0AGUAZAAuACIA
+2018/05/01 10:54:38 packer.exe: 2018/05/01 10:54:38 [INFO] command 'powershell.exe -EncodedCommand aQBmACAAKABUAGUAcwB0AC0AUABhAHQAaAAgAHYAYQByAGkAYQBiAGwAZQA6AGcAbABvAGIAYQBsADoAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAKQB7ACQAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAPQAnAFMAaQBsAGUAbgB0AGwAeQBDAG8AbgB0AGkAbgB1AGUAJwB9ADsAIABlAGMAaABvACAAIgBXAGkAbgBSAE0AIABjAG8AbgBuAGUAYwB0AGUAZAAuACIA' exited with code: 0
+2018/05/01 10:54:38 ui: [0;32m    hyperv-iso: WinRM connected.[0m
+2018/05/01 10:54:38 packer.exe: 2018/05/01 10:54:38 Connected to machine
+2018/05/01 10:54:38 ui: [1;32m==> hyperv-iso: Connected to WinRM![0m
+2018/05/01 10:54:38 packer.exe: 2018/05/01 10:54:38 Running the provision hook
+2018/05/01 10:54:38 [INFO] (telemetry) Starting provisioner powershell
+2018/05/01 10:54:38 ui: [1;32m==> hyperv-iso: Provisioning with Powershell...[0m
+2018/05/01 10:54:38 packer.exe: 2018/05/01 10:54:38 Found command: ipconfig
+2018/05/01 10:54:38 ui: [1;32m==> hyperv-iso: Provisioning with powershell script: C:\Users\jbore\AppData\Local\Temp\packer-powershell-provisioner017058483[0m
+2018/05/01 10:54:38 packer.exe: 2018/05/01 10:54:38 Opening C:\Users\jbore\AppData\Local\Temp\packer-powershell-provisioner017058483 for reading
+2018/05/01 10:54:38 packer.exe: 2018/05/01 10:54:38 Uploading env vars to c:/Windows/Temp/packer-ps-env-vars-5ae7b879-4a36-f5d2-0ab9-f8cabd17b902.ps1
+2018/05/01 10:54:38 packer.exe: 2018/05/01 10:54:38 [INFO] 76 bytes written for 'uploadData'
+2018/05/01 10:54:38 [INFO] 76 bytes written for 'uploadData'
+2018/05/01 10:54:42 packer.exe: 2018/05/01 10:54:42 Uploading file to 'c:/Windows/Temp/packer-ps-env-vars-5ae7b879-4a36-f5d2-0ab9-f8cabd17b902.ps1'
+2018/05/01 10:54:48 packer.exe: 2018/05/01 10:54:48 [INFO] 9 bytes written for 'uploadData'
+2018/05/01 10:54:48 [INFO] 9 bytes written for 'uploadData'
+2018/05/01 10:54:51 packer.exe: 2018/05/01 10:54:51 Uploading file to 'c:/Windows/Temp/script-5ae7b879-7c47-068c-83df-ece210721fcd.ps1'
+2018/05/01 10:54:58 packer.exe: 2018/05/01 10:54:58 [INFO] starting remote command: powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){$ProgressPreference='SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-5ae7b879-4a36-f5d2-0ab9-f8cabd17b902.ps1; &'c:/Windows/Temp/script-5ae7b879-7c47-068c-83df-ece210721fcd.ps1';exit $LastExitCode }"
+2018/05/01 10:55:01 packer.exe: 2018/05/01 10:55:01 [INFO] command 'powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){$ProgressPreference='SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-5ae7b879-4a36-f5d2-0ab9-f8cabd17b902.ps1; &'c:/Windows/Temp/script-5ae7b879-7c47-068c-83df-ece210721fcd.ps1';exit $LastExitCode }"' exited with code: 0
+2018/05/01 10:55:01 packer.exe: 2018/05/01 10:55:01 [INFO] RPC endpoint: Communicator ended with: 0
+2018/05/01 10:55:01 [INFO] 500 bytes written for 'stdout'
+2018/05/01 10:55:01 [INFO] 0 bytes written for 'stderr'
+2018/05/01 10:55:01 ui: [0;32m    hyperv-iso:[0m
+2018/05/01 10:55:01 [INFO] RPC client: Communicator ended with: 0
+2018/05/01 10:55:01 [INFO] RPC endpoint: Communicator ended with: 0
+2018/05/01 10:55:01 packer.exe: 2018/05/01 10:55:01 [INFO] 0 bytes written for 'stderr'
+2018/05/01 10:55:01 packer.exe: 2018/05/01 10:55:01 [INFO] 500 bytes written for 'stdout'
+2018/05/01 10:55:01 ui: [0;32m    hyperv-iso: Windows IP Configuration[0m
+2018/05/01 10:55:01 packer.exe: 2018/05/01 10:55:01 [INFO] RPC client: Communicator ended with: 0
+2018/05/01 10:55:01 ui: [0;32m    hyperv-iso:[0m
+2018/05/01 10:55:01 ui: [0;32m    hyperv-iso:[0m
+2018/05/01 10:55:01 ui: [0;32m    hyperv-iso: Ethernet adapter Local Area Connection:[0m
+2018/05/01 10:55:01 ui: [0;32m    hyperv-iso:[0m
+2018/05/01 10:55:01 ui: [0;32m    hyperv-iso:    Connection-specific DNS Suffix  . :[0m
+2018/05/01 10:55:01 ui: [0;32m    hyperv-iso:    Link-local IPv6 Address . . . . . : fe80::4049:3165:f573:628e%11[0m
+2018/05/01 10:55:01 ui: [0;32m    hyperv-iso:    Autoconfiguration IPv4 Address. . : 169.254.98.142[0m
+2018/05/01 10:55:01 ui: [0;32m    hyperv-iso:    Subnet Mask . . . . . . . . . . . : 255.255.0.0[0m
+2018/05/01 10:55:01 ui: [0;32m    hyperv-iso:    Default Gateway . . . . . . . . . :[0m
+2018/05/01 10:55:01 ui: [0;32m    hyperv-iso:[0m
+2018/05/01 10:55:01 ui: [0;32m    hyperv-iso: Tunnel adapter isatap.{E14C1DF5-D7B5-4ED7-9977-C51DEE50BF12}:[0m
+2018/05/01 10:55:01 ui: [0;32m    hyperv-iso:[0m
+2018/05/01 10:55:01 ui: [0;32m    hyperv-iso:    Media State . . . . . . . . . . . : Media disconnected[0m
+2018/05/01 10:55:01 ui: [0;32m    hyperv-iso:    Connection-specific DNS Suffix  . :[0m
+2018/05/01 10:55:01 [INFO] (telemetry) ending powershell
+2018/05/01 10:55:01 ui: [1;32m==> hyperv-iso: Gracefully halting virtual machine...[0m
+2018/05/01 10:55:01 packer.exe: 2018/05/01 10:55:01 Executing shutdown command: shutdown.exe /s /t 5
+2018/05/01 10:55:01 packer.exe: 2018/05/01 10:55:01 [INFO] starting remote command: shutdown.exe /s /t 5
+2018/05/01 10:55:01 packer.exe: 2018/05/01 10:55:01 Waiting max 15m0s for shutdown to complete
+2018/05/01 10:55:01 packer.exe: 2018/05/01 10:55:01 [INFO] command 'shutdown.exe /s /t 5' exited with code: 0
+2018/05/01 10:55:09 packer.exe: 2018/05/01 10:55:09 VM shut down.
+2018/05/01 10:55:09 ui: [1;32m==> hyperv-iso: Waiting for vm to be powered down...[0m
+2018/05/01 10:55:09 ui: [1;32m==> hyperv-iso: Unmount/delete secondary dvd drives...[0m
+2018/05/01 10:55:09 ui: [1;32m==> hyperv-iso: Delete secondary dvd drives controller 1 location 0 ...[0m
+2018/05/01 10:55:10 ui: [1;32m==> hyperv-iso: Unmount/delete Integration Services dvd drive...[0m
+2018/05/01 10:55:10 ui: [1;32m==> hyperv-iso: Unmount/delete os dvd drive...[0m
+2018/05/01 10:55:10 ui: [1;32m==> hyperv-iso: Delete os dvd drives controller 0 location 1 ...[0m
+2018/05/01 10:55:10 ui: [1;32m==> hyperv-iso: Unmount/delete floppy drive (Run)...[0m
+2018/05/01 10:55:11 ui: [1;32m==> hyperv-iso: Exporting vm...[0m
+2018/05/01 10:56:13 ui: [1;32m==> hyperv-iso: Compacting disks...[0m
+2018/05/01 10:56:18 ui: [1;32m==> hyperv-iso: Copying to output dir...[0m
+2018/05/01 10:56:19 ui: [1;32m==> hyperv-iso: Unregistering and deleting virtual machine...[0m
+2018/05/01 10:56:19 ui: [1;32m==> hyperv-iso: Deleting temporary directory...[0m
+2018/05/01 10:56:19 [INFO] (telemetry) ending hyperv-iso
+2018/05/01 10:56:19 ui: [1;32mBuild 'hyperv-iso' finished.[0m
+2018/05/01 10:56:19 Builds completed. Waiting on interrupt barrier...
+2018/05/01 10:56:19 ui: 
+==> Builds finished. The artifacts of successful builds are:
+2018/05/01 10:56:19 machine readable: hyperv-iso,artifact-count []string{"1"}
+2018/05/01 10:56:19 machine readable: hyperv-iso,artifact []string{"0", "builder-id", "MSOpenTech.hyperv"}
+2018/05/01 10:56:19 machine readable: hyperv-iso,artifact []string{"0", "id", "VM"}
+2018/05/01 10:56:19 machine readable: hyperv-iso,artifact []string{"0", "string", "VM files in directory: output-hyperv-iso"}
+2018/05/01 10:56:19 machine readable: hyperv-iso,artifact []string{"0", "files-count", "5"}
+2018/05/01 10:56:19 machine readable: hyperv-iso,artifact []string{"0", "file", "0", "output-hyperv-iso\\Virtual Hard Disks\\packer-hyperv-iso.vhdx"}
+2018/05/01 10:56:19 machine readable: hyperv-iso,artifact []string{"0", "file", "1", "output-hyperv-iso\\Virtual Machines\\60AE4B86-95DC-4F5B-9891-A92490C73887.VMRS"}
+2018/05/01 10:56:19 machine readable: hyperv-iso,artifact []string{"0", "file", "2", "output-hyperv-iso\\Virtual Machines\\60AE4B86-95DC-4F5B-9891-A92490C73887.vmcx"}
+2018/05/01 10:56:19 machine readable: hyperv-iso,artifact []string{"0", "file", "3", "output-hyperv-iso\\Virtual Machines\\60AE4B86-95DC-4F5B-9891-A92490C73887.vmgs"}
+2018/05/01 10:56:19 machine readable: hyperv-iso,artifact []string{"0", "file", "4", "output-hyperv-iso\\Virtual Machines\\box.xml"}
+2018/05/01 10:56:19 machine readable: hyperv-iso,artifact []string{"0", "end"}
+2018/05/01 10:56:19 ui: --> hyperv-iso: VM files in directory: output-hyperv-iso
+2018/05/01 10:56:19 [INFO] (telemetry) Finalizing.
+2018/05/01 10:56:21 waiting for all plugin processes to complete...
+2018/05/01 10:56:21 c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe: plugin process exited
+2018/05/01 10:56:21 c:\dev\go\src\github.com\hashicorp\packer\pkg\windows_amd64\packer.exe: plugin process exited

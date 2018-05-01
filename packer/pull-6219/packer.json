@@ -1,0 +1,35 @@
+{
+    "builders": [
+        {
+            "boot_command": [
+                "a<enter><wait>a<enter><wait>a<enter><wait>a<enter>"
+            ], 
+            "boot_wait": "0s", 
+            "communicator": "winrm", 
+            "cpu": 2, 
+            "generation": "1", 
+            "guest_additions_mode": "disable", 
+            "iso_checksum": "4263be2cf3c59177c45085c0a7bc6ca5", 
+            "iso_checksum_type": "md5", 
+            "iso_url": "7601.17514.101119-1850_x64fre_server_eval_en-us-GRMSXEVAL_EN_DVD.iso", 
+            "ram_size": 2048, 
+            "secondary_iso_images": [
+                "secondary.iso"
+            ], 
+            "shutdown_command": "shutdown.exe /s /t 5", 
+            "shutdown_timeout": "15m", 
+            "type": "hyperv-iso", 
+            "winrm_password": "vagrant", 
+            "winrm_port": "5985", 
+            "winrm_username": "vagrant"
+        }
+    ], 
+    "post-processors": [
+    ], 
+    "provisioners": [
+        {
+            "inline": ["ipconfig"],
+            "type": "powershell"
+        }
+    ]
+}
