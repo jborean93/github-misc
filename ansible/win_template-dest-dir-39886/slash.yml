@@ -1,0 +1,27 @@
+---
+- hosts: windows
+  gather_facts: no
+  tasks:
+  - name: make sure we start off with a blank slate
+    win_file:
+      path: C:\win_template-issue
+      state: '{{item}}'
+    with_items:
+    - absent
+    - directory
+
+  - name: template to directory with trailing slash
+    win_template:
+      src: template.txt
+      dest: C:\win_template-issue\
+
+  - name: list files in directory
+    win_shell: gci C:\win_template-issue
+
+  - name: template to directory with trailing slash again
+    win_template:
+      src: template.txt
+      dest: C:\win_template-issue\
+
+  - name: list files in directory
+    win_shell: gci C:\win_template-issue
