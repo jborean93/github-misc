@@ -1,0 +1,51 @@
+{
+    "builders": [
+        {
+            "communicator": "winrm",
+            "floppy_files": [
+                "Autounattend.xml",
+                "bootstrap.ps1"
+            ],
+            "guest_additions_mode": "disable",
+            "guest_os_type": "Windows2012_64",
+            "headless": true,
+            "iso_checksum": "5b5e08c490ad16b59b1d9fab0def883a",
+            "iso_checksum_type": "md5",
+            "iso_url": "http://care.dlservice.microsoft.com/dl/download/6/2/A/62A76ABB-9990-4EFC-A4FE-C7D698DAEB96/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO",
+            "shutdown_command": "shutdown /s /t 0",
+            "shutdown_timeout": "15m",
+            "type": "virtualbox-iso",
+            "vboxmanage": [
+                [
+                    "modifyvm",
+                    "{{.Name}}",
+                    "--memory",
+                    "2048"
+                ],
+                [
+                    "modifyvm",
+                    "{{.Name}}",
+                    "--vram",
+                    "48"
+                ],
+                [
+                    "modifyvm",
+                    "{{.Name}}",
+                    "--cpus",
+                    "2"
+                ]
+            ],
+            "winrm_password": "vagrant",
+            "winrm_port": "5985",
+            "winrm_timeout": "30m",
+            "winrm_username": "vagrant",
+            "winrm_use_ntlm": true
+        }
+    ],
+    "provisioners": [
+        {
+            "inline": ["ipconfig"],
+            "type": "powershell"
+        }
+    ]
+}

@@ -1,0 +1,440 @@
+2018/05/25 10:19:50 [INFO] Packer version: 1.2.3
+2018/05/25 10:19:50 Packer Target OS/Arch: darwin amd64
+2018/05/25 10:19:50 Built with Go Version: go1.10.1
+2018/05/25 10:19:50 Detected home directory from env var: /Users/jborean
+2018/05/25 10:19:50 Using internal plugin for virtualbox-iso
+2018/05/25 10:19:50 Using internal plugin for vmware-iso
+2018/05/25 10:19:50 Using internal plugin for cloudstack
+2018/05/25 10:19:50 Using internal plugin for file
+2018/05/25 10:19:50 Using internal plugin for oracle-oci
+2018/05/25 10:19:50 Using internal plugin for triton
+2018/05/25 10:19:50 Using internal plugin for qemu
+2018/05/25 10:19:50 Using internal plugin for virtualbox-ovf
+2018/05/25 10:19:50 Using internal plugin for hyperv-iso
+2018/05/25 10:19:50 Using internal plugin for ncloud
+2018/05/25 10:19:50 Using internal plugin for openstack
+2018/05/25 10:19:50 Using internal plugin for oracle-classic
+2018/05/25 10:19:50 Using internal plugin for hyperv-vmcx
+2018/05/25 10:19:50 Using internal plugin for scaleway
+2018/05/25 10:19:50 Using internal plugin for oneandone
+2018/05/25 10:19:50 Using internal plugin for parallels-iso
+2018/05/25 10:19:50 Using internal plugin for profitbricks
+2018/05/25 10:19:50 Using internal plugin for alicloud-ecs
+2018/05/25 10:19:50 Using internal plugin for amazon-chroot
+2018/05/25 10:19:50 Using internal plugin for docker
+2018/05/25 10:19:50 Using internal plugin for lxd
+2018/05/25 10:19:50 Using internal plugin for amazon-ebsvolume
+2018/05/25 10:19:50 Using internal plugin for azure-arm
+2018/05/25 10:19:50 Using internal plugin for vmware-vmx
+2018/05/25 10:19:50 Using internal plugin for digitalocean
+2018/05/25 10:19:50 Using internal plugin for amazon-ebs
+2018/05/25 10:19:50 Using internal plugin for amazon-ebssurrogate
+2018/05/25 10:19:50 Using internal plugin for amazon-instance
+2018/05/25 10:19:50 Using internal plugin for googlecompute
+2018/05/25 10:19:50 Using internal plugin for lxc
+2018/05/25 10:19:50 Using internal plugin for null
+2018/05/25 10:19:50 Using internal plugin for parallels-pvm
+2018/05/25 10:19:50 Using internal plugin for ansible-local
+2018/05/25 10:19:50 Using internal plugin for file
+2018/05/25 10:19:50 Using internal plugin for puppet-masterless
+2018/05/25 10:19:50 Using internal plugin for salt-masterless
+2018/05/25 10:19:50 Using internal plugin for windows-restart
+2018/05/25 10:19:50 Using internal plugin for powershell
+2018/05/25 10:19:50 Using internal plugin for shell-local
+2018/05/25 10:19:50 Using internal plugin for chef-client
+2018/05/25 10:19:50 Using internal plugin for chef-solo
+2018/05/25 10:19:50 Using internal plugin for converge
+2018/05/25 10:19:50 Using internal plugin for puppet-server
+2018/05/25 10:19:50 Using internal plugin for shell
+2018/05/25 10:19:50 Using internal plugin for ansible
+2018/05/25 10:19:50 Using internal plugin for windows-shell
+2018/05/25 10:19:50 Using internal plugin for googlecompute-export
+2018/05/25 10:19:50 Using internal plugin for vagrant-cloud
+2018/05/25 10:19:50 Using internal plugin for vsphere-template
+2018/05/25 10:19:50 Using internal plugin for amazon-import
+2018/05/25 10:19:50 Using internal plugin for artifice
+2018/05/25 10:19:50 Using internal plugin for docker-save
+2018/05/25 10:19:50 Using internal plugin for vagrant
+2018/05/25 10:19:50 Using internal plugin for atlas
+2018/05/25 10:19:50 Using internal plugin for compress
+2018/05/25 10:19:50 Using internal plugin for shell-local
+2018/05/25 10:19:50 Using internal plugin for vsphere
+2018/05/25 10:19:50 Using internal plugin for checksum
+2018/05/25 10:19:50 Using internal plugin for docker-push
+2018/05/25 10:19:50 Using internal plugin for docker-tag
+2018/05/25 10:19:50 Using internal plugin for manifest
+2018/05/25 10:19:50 Using internal plugin for alicloud-import
+2018/05/25 10:19:50 Using internal plugin for docker-import
+2018/05/25 10:19:50 Detected home directory from env var: /Users/jborean
+2018/05/25 10:19:50 Attempting to open config file: /Users/jborean/.packerconfig
+2018/05/25 10:19:50 [WARN] Config file doesn't exist: /Users/jborean/.packerconfig
+2018/05/25 10:19:50 Packer config: &{DisableCheckpoint:false DisableCheckpointSignature:false PluginMinPort:10000 PluginMaxPort:25000 Builders:map[virtualbox-iso:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-virtualbox-iso triton:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-triton amazon-chroot:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-chroot digitalocean:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-digitalocean amazon-ebs:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebs vmware-iso:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-vmware-iso profitbricks:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-profitbricks oracle-oci:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oracle-oci file:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-file oracle-classic:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oracle-classic scaleway:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-scaleway lxd:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-lxd amazon-ebssurrogate:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebssurrogate parallels-pvm:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-parallels-pvm qemu:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-qemu oneandone:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oneandone parallels-iso:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-parallels-iso docker:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-docker hyperv-vmcx:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-hyperv-vmcx virtualbox-ovf:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-virtualbox-ovf ncloud:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-ncloud openstack:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-openstack alicloud-ecs:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-alicloud-ecs vmware-vmx:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-vmware-vmx googlecompute:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-googlecompute cloudstack:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-cloudstack amazon-ebsvolume:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebsvolume azure-arm:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-azure-arm amazon-instance:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-instance lxc:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-lxc null:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-null hyperv-iso:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-hyperv-iso] PostProcessors:map[alicloud-import:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-alicloud-import googlecompute-export:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-googlecompute-export vagrant-cloud:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vagrant-cloud amazon-import:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-amazon-import shell-local:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-shell-local vsphere:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vsphere docker-tag:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-tag artifice:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-artifice vagrant:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vagrant atlas:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-atlas compress:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-compress docker-import:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-import vsphere-template:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vsphere-template docker-save:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-save checksum:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-checksum docker-push:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-push manifest:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-manifest] Provisioners:map[puppet-server:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-puppet-server windows-shell:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-windows-shell file:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-file converge:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-converge shell:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-shell ansible:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-ansible shell-local:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-shell-local chef-solo:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-chef-solo salt-masterless:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-salt-masterless windows-restart:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-windows-restart powershell:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-powershell chef-client:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-chef-client ansible-local:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-ansible-local puppet-masterless:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-puppet-masterless]}
+2018/05/25 10:19:50 Detected home directory from env var: /Users/jborean
+2018/05/25 10:19:50 Setting cache directory: /Users/jborean/dev/github-misc/packer/issue-6205/packer_cache
+2018/05/25 10:19:50 Detected home directory from env var: /Users/jborean
+2018/05/25 10:19:50 Loading builder: virtualbox-iso
+2018/05/25 10:19:50 Plugin could not be found. Checking same directory as executable.
+2018/05/25 10:19:50 Current exe path: /usr/local/bin/packer
+2018/05/25 10:19:50 Creating plugin client for path: /usr/local/bin/packer
+2018/05/25 10:19:50 Starting plugin: /usr/local/bin/packer []string{"/usr/local/bin/packer", "plugin", "packer-builder-virtualbox-iso"}
+2018/05/25 10:19:50 Waiting for RPC address for: /usr/local/bin/packer
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 [INFO] Packer version: 1.2.3
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Packer Target OS/Arch: darwin amd64
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Built with Go Version: go1.10.1
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Detected home directory from env var: /Users/jborean
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Attempting to open config file: /Users/jborean/.packerconfig
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 [WARN] Config file doesn't exist: /Users/jborean/.packerconfig
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Packer config: &{DisableCheckpoint:false DisableCheckpointSignature:false PluginMinPort:10000 PluginMaxPort:25000 Builders:map[] PostProcessors:map[] Provisioners:map[]}
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Detected home directory from env var: /Users/jborean
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Setting cache directory: /Users/jborean/dev/github-misc/packer/issue-6205/packer_cache
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Detected home directory from env var: /Users/jborean
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 args: []string{"packer-builder-virtualbox-iso"}
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Plugin minimum port: 10000
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Plugin maximum port: 25000
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Plugin address: unix /var/folders/v8/zmvmmhjx52n9f8rfqr5cqlrc0000gn/T/packer-plugin150445316
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Waiting for connection...
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Serving a plugin connection...
+2018/05/25 10:19:50 Loading provisioner: powershell
+2018/05/25 10:19:50 Plugin could not be found. Checking same directory as executable.
+2018/05/25 10:19:50 Current exe path: /usr/local/bin/packer
+2018/05/25 10:19:50 Creating plugin client for path: /usr/local/bin/packer
+2018/05/25 10:19:50 Starting plugin: /usr/local/bin/packer []string{"/usr/local/bin/packer", "plugin", "packer-provisioner-powershell"}
+2018/05/25 10:19:50 Waiting for RPC address for: /usr/local/bin/packer
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 [INFO] Packer version: 1.2.3
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Packer Target OS/Arch: darwin amd64
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Built with Go Version: go1.10.1
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Detected home directory from env var: /Users/jborean
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Attempting to open config file: /Users/jborean/.packerconfig
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 [WARN] Config file doesn't exist: /Users/jborean/.packerconfig
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Packer config: &{DisableCheckpoint:false DisableCheckpointSignature:false PluginMinPort:10000 PluginMaxPort:25000 Builders:map[] PostProcessors:map[] Provisioners:map[]}
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Detected home directory from env var: /Users/jborean
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Setting cache directory: /Users/jborean/dev/github-misc/packer/issue-6205/packer_cache
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 args: []string{"packer-provisioner-powershell"}
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Plugin minimum port: 10000
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Plugin maximum port: 25000
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Detected home directory from env var: /Users/jborean
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Plugin address: unix /var/folders/v8/zmvmmhjx52n9f8rfqr5cqlrc0000gn/T/packer-plugin752814681
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Waiting for connection...
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Serving a plugin connection...
+2018/05/25 10:19:50 ui: [1;32mvirtualbox-iso output will be in this color.[0m
+2018/05/25 10:19:50 ui: 
+2018/05/25 10:19:50 Build debug mode: false
+2018/05/25 10:19:50 Force build: true
+2018/05/25 10:19:50 On error: 
+2018/05/25 10:19:50 Preparing build: virtualbox-iso
+2018/05/25 10:19:50 Waiting on builds to complete...
+2018/05/25 10:19:50 Starting build run: virtualbox-iso
+2018/05/25 10:19:50 Running builder: virtualbox-iso
+2018/05/25 10:19:50 [INFO] (telemetry) Starting builder virtualbox-iso
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 VBoxManage path: /usr/local/bin/VBoxManage
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Not downloading guest additions since it is disabled.
+2018/05/25 10:19:50 ui: [1;32m==> virtualbox-iso: Downloading or copying ISO[0m
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Acquiring lock to download: file:///Users/jborean/Documents/iso/Windows%20Server/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO
+2018/05/25 10:19:50 ui: [0;32m    virtualbox-iso: Downloading or copying: file:///Users/jborean/Documents/iso/Windows%20Server/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO[0m
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Parsed URL: &url.URL{Scheme:"file", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/Users/jborean/Documents/iso/Windows Server/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO", RawPath:"", ForceQuery:false, RawQuery:"", Fragment:""}
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 [DEBUG] Using local file: /Users/jborean/Documents/iso/Windows Server/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO
+2018/05/25 10:19:50 packer: 2018/05/25 10:19:50 Verifying checksum of /Users/jborean/Documents/iso/Windows Server/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO
+2018/05/25 10:20:03 ui: [1;32m==> virtualbox-iso: Creating floppy disk...[0m
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Floppy path: /var/folders/v8/zmvmmhjx52n9f8rfqr5cqlrc0000gn/T/packer474859155
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Initializing block device backed by temporary file
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Formatting the block device with a FAT filesystem...
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Initializing FAT filesystem on block device
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Reading the root directory from the filesystem
+2018/05/25 10:20:03 ui: [0;32m    virtualbox-iso: Copying files flatly from floppy_files[0m
+2018/05/25 10:20:03 ui: [0;32m    virtualbox-iso: Copying file: Autounattend.xml[0m
+2018/05/25 10:20:03 ui: [0;32m    virtualbox-iso: Copying file: bootstrap.ps1[0m
+2018/05/25 10:20:03 ui: [0;32m    virtualbox-iso: Done copying files from floppy_files[0m
+2018/05/25 10:20:03 ui: [0;32m    virtualbox-iso: Collecting paths from floppy_dirs[0m
+2018/05/25 10:20:03 ui: [0;32m    virtualbox-iso: Resulting paths from floppy_dirs : [][0m
+2018/05/25 10:20:03 ui: [0;32m    virtualbox-iso: Done copying paths from floppy_dirs[0m
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Suppressing annoying messages in VirtualBox
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Executing VBoxManage: []string{"setextradata", "global", "GUI/RegistrationData", "triesLeft=0"}
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stdout:
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stderr:
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Executing VBoxManage: []string{"setextradata", "global", "GUI/SuppressMessages", "confirmInputCapture,remindAboutAutoCapture,remindAboutMouseIntegrationOff,remindAboutMouseIntegrationOn,remindAboutWrongColorDepth"}
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stdout:
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stderr:
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Executing VBoxManage: []string{"setextradata", "global", "GUI/UpdateCheckCount", "60"}
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stdout:
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stderr:
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Executing VBoxManage: []string{"setextradata", "global", "GUI/UpdateDate", "1 d, 2019-01-01, stable"}
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stdout:
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stderr:
+2018/05/25 10:20:03 ui: [1;32m==> virtualbox-iso: Creating virtual machine...[0m
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Executing VBoxManage: []string{"createvm", "--name", "packer-virtualbox-iso-1527207590", "--ostype", "Windows2012_64", "--register"}
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stdout: Virtual machine 'packer-virtualbox-iso-1527207590' is created and registered.
+2018/05/25 10:20:03 packer: UUID: 7acd5bcd-4c70-415a-9273-32e5cc573d2b
+2018/05/25 10:20:03 packer: Settings file: '/Users/jborean/VirtualBox VMs/packer-virtualbox-iso-1527207590/packer-virtualbox-iso-1527207590.vbox'
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stderr:
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Executing VBoxManage: []string{"modifyvm", "packer-virtualbox-iso-1527207590", "--boot1", "disk", "--boot2", "dvd", "--boot3", "none", "--boot4", "none"}
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stdout:
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stderr:
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Executing VBoxManage: []string{"modifyvm", "packer-virtualbox-iso-1527207590", "--cpus", "1"}
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stdout:
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stderr:
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Executing VBoxManage: []string{"modifyvm", "packer-virtualbox-iso-1527207590", "--memory", "512"}
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stdout:
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stderr:
+2018/05/25 10:20:03 ui: [1;32m==> virtualbox-iso: Creating hard drive...[0m
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Executing VBoxManage: []string{"createhd", "--filename", "output-virtualbox-iso/packer-virtualbox-iso-1527207590.vdi", "--size", "40000", "--format", "VDI", "--variant", "Standard"}
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stdout: Medium created. UUID: 04a9c275-de50-44a1-8283-91c817470b04
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stderr: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Executing VBoxManage: []string{"storagectl", "packer-virtualbox-iso-1527207590", "--name", "IDE Controller", "--add", "ide"}
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stdout:
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stderr:
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Executing VBoxManage: []string{"storageattach", "packer-virtualbox-iso-1527207590", "--storagectl", "IDE Controller", "--port", "0", "--device", "0", "--type", "hdd", "--medium", "output-virtualbox-iso/packer-virtualbox-iso-1527207590.vdi", "--nonrotational", "off", "--discard", "off"}
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stdout:
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 stderr:
+2018/05/25 10:20:03 packer: 2018/05/25 10:20:03 Executing VBoxManage: []string{"storageattach", "packer-virtualbox-iso-1527207590", "--storagectl", "IDE Controller", "--port", "0", "--device", "1", "--type", "dvddrive", "--medium", "/Users/jborean/Documents/iso/Windows Server/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO"}
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 stdout:
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 stderr:
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 Not attaching guest additions since we're uploading.
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 Looking for available port between 5900 and 6000 on 127.0.0.1
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 Trying port: 5981
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 Executing VBoxManage: []string{"modifyvm", "packer-virtualbox-iso-1527207590", "--vrdeaddress", "127.0.0.1", "--vrdeauthtype", "null", "--vrde", "on", "--vrdeport", "5981"}
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 stdout:
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 stderr:
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 Copying floppy to temp location: /var/folders/v8/zmvmmhjx52n9f8rfqr5cqlrc0000gn/T/packer232495830/floppy.vfd
+2018/05/25 10:20:04 ui: [1;32m==> virtualbox-iso: Attaching floppy disk...[0m
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 Executing VBoxManage: []string{"storagectl", "packer-virtualbox-iso-1527207590", "--name", "Floppy Controller", "--add", "floppy"}
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 stdout:
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 stderr:
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 Executing VBoxManage: []string{"storageattach", "packer-virtualbox-iso-1527207590", "--storagectl", "Floppy Controller", "--port", "0", "--device", "0", "--type", "fdd", "--medium", "/var/folders/v8/zmvmmhjx52n9f8rfqr5cqlrc0000gn/T/packer232495830/floppy.vfd"}
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 stdout:
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 stderr:
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 Looking for available communicator (SSH, WinRM, etc) port between 2222 and 4444
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 Trying port: 4030
+2018/05/25 10:20:04 ui: [1;32m==> virtualbox-iso: Creating forwarded port mapping for communicator (SSH, WinRM, etc) (host port 4030)[0m
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 Executing VBoxManage: []string{"modifyvm", "packer-virtualbox-iso-1527207590", "--natpf1", "packercomm,tcp,127.0.0.1,4030,,5985"}
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 stdout:
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 stderr:
+2018/05/25 10:20:04 ui: [1;32m==> virtualbox-iso: Executing custom VBoxManage commands...[0m
+2018/05/25 10:20:04 ui: [0;32m    virtualbox-iso: Executing: modifyvm packer-virtualbox-iso-1527207590 --memory 2048[0m
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 Executing VBoxManage: []string{"modifyvm", "packer-virtualbox-iso-1527207590", "--memory", "2048"}
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 stdout:
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 stderr:
+2018/05/25 10:20:04 ui: [0;32m    virtualbox-iso: Executing: modifyvm packer-virtualbox-iso-1527207590 --vram 48[0m
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 Executing VBoxManage: []string{"modifyvm", "packer-virtualbox-iso-1527207590", "--vram", "48"}
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 stdout:
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 stderr:
+2018/05/25 10:20:04 ui: [0;32m    virtualbox-iso: Executing: modifyvm packer-virtualbox-iso-1527207590 --cpus 2[0m
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 Executing VBoxManage: []string{"modifyvm", "packer-virtualbox-iso-1527207590", "--cpus", "2"}
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 stdout:
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 stderr:
+2018/05/25 10:20:04 ui: [1;32m==> virtualbox-iso: Starting the virtual machine...[0m
+2018/05/25 10:20:04 ui: [0;32m    virtualbox-iso: The VM will be run headless, without a GUI. If you want to
+    virtualbox-iso: view the screen of the VM, connect via VRDP without a password to
+    virtualbox-iso: rdp://127.0.0.1:5981[0m
+2018/05/25 10:20:04 packer: 2018/05/25 10:20:04 Executing VBoxManage: []string{"startvm", "packer-virtualbox-iso-1527207590", "--type", "headless"}
+2018/05/25 10:20:05 packer: 2018/05/25 10:20:05 stdout: Waiting for VM "packer-virtualbox-iso-1527207590" to power on...
+2018/05/25 10:20:05 packer: VM "packer-virtualbox-iso-1527207590" has been successfully started.
+2018/05/25 10:20:05 packer: 2018/05/25 10:20:05 stderr:
+2018/05/25 10:20:05 ui: [1;32m==> virtualbox-iso: Waiting 10s for boot...[0m
+2018/05/25 10:20:15 ui: [1;32m==> virtualbox-iso: Typing the boot command...[0m
+2018/05/25 10:20:15 packer: 2018/05/25 10:20:15 Waiting for WinRM, up to timeout: 30m0s
+2018/05/25 10:20:15 ui: [1;32m==> virtualbox-iso: Waiting for WinRM to become available...[0m
+2018/05/25 10:20:20 packer: 2018/05/25 10:20:20 [INFO] Attempting WinRM connection...
+2018/05/25 10:20:20 packer: 2018/05/25 10:20:20 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:21:35 packer: 2018/05/25 10:21:35 [ERROR] connection error: unknown error Post http://127.0.0.1:4030/wsman: read tcp 127.0.0.1:62039->127.0.0.1:4030: read: connection reset by peer
+2018/05/25 10:21:35 packer: 2018/05/25 10:21:35 [ERROR] WinRM connection err: unknown error Post http://127.0.0.1:4030/wsman: read tcp 127.0.0.1:62039->127.0.0.1:4030: read: connection reset by peer
+2018/05/25 10:21:40 packer: 2018/05/25 10:21:40 [INFO] Attempting WinRM connection...
+2018/05/25 10:21:40 packer: 2018/05/25 10:21:40 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:22:55 packer: 2018/05/25 10:22:55 [ERROR] connection error: unknown error Post http://127.0.0.1:4030/wsman: read tcp 127.0.0.1:62089->127.0.0.1:4030: read: connection reset by peer
+2018/05/25 10:22:55 packer: 2018/05/25 10:22:55 [ERROR] WinRM connection err: unknown error Post http://127.0.0.1:4030/wsman: read tcp 127.0.0.1:62089->127.0.0.1:4030: read: connection reset by peer
+2018/05/25 10:23:00 packer: 2018/05/25 10:23:00 [INFO] Attempting WinRM connection...
+2018/05/25 10:23:00 packer: 2018/05/25 10:23:00 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:23:31 packer: 2018/05/25 10:23:31 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:23:31 packer: 2018/05/25 10:23:31 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:23:36 packer: 2018/05/25 10:23:36 [INFO] Attempting WinRM connection...
+2018/05/25 10:23:36 packer: 2018/05/25 10:23:36 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:24:08 packer: 2018/05/25 10:24:08 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:24:08 packer: 2018/05/25 10:24:08 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:24:13 packer: 2018/05/25 10:24:13 [INFO] Attempting WinRM connection...
+2018/05/25 10:24:13 packer: 2018/05/25 10:24:13 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:24:13 packer: 2018/05/25 10:24:13 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:24:13 packer: 2018/05/25 10:24:13 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:24:18 packer: 2018/05/25 10:24:18 [INFO] Attempting WinRM connection...
+2018/05/25 10:24:18 packer: 2018/05/25 10:24:18 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:24:18 packer: 2018/05/25 10:24:18 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:24:18 packer: 2018/05/25 10:24:18 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:24:23 packer: 2018/05/25 10:24:23 [INFO] Attempting WinRM connection...
+2018/05/25 10:24:23 packer: 2018/05/25 10:24:23 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:24:23 packer: 2018/05/25 10:24:23 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:24:23 packer: 2018/05/25 10:24:23 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:24:28 packer: 2018/05/25 10:24:28 [INFO] Attempting WinRM connection...
+2018/05/25 10:24:28 packer: 2018/05/25 10:24:28 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:24:28 packer: 2018/05/25 10:24:28 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:24:28 packer: 2018/05/25 10:24:28 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:24:33 packer: 2018/05/25 10:24:33 [INFO] Attempting WinRM connection...
+2018/05/25 10:24:33 packer: 2018/05/25 10:24:33 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:24:33 packer: 2018/05/25 10:24:33 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:24:33 packer: 2018/05/25 10:24:33 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:24:38 packer: 2018/05/25 10:24:38 [INFO] Attempting WinRM connection...
+2018/05/25 10:24:38 packer: 2018/05/25 10:24:38 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:24:38 packer: 2018/05/25 10:24:38 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:24:38 packer: 2018/05/25 10:24:38 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:24:43 packer: 2018/05/25 10:24:43 [INFO] Attempting WinRM connection...
+2018/05/25 10:24:43 packer: 2018/05/25 10:24:43 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:24:43 packer: 2018/05/25 10:24:43 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:24:43 packer: 2018/05/25 10:24:43 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:24:48 packer: 2018/05/25 10:24:48 [INFO] Attempting WinRM connection...
+2018/05/25 10:24:48 packer: 2018/05/25 10:24:48 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:24:48 packer: 2018/05/25 10:24:48 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:24:48 packer: 2018/05/25 10:24:48 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:24:53 packer: 2018/05/25 10:24:53 [INFO] Attempting WinRM connection...
+2018/05/25 10:24:53 packer: 2018/05/25 10:24:53 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:24:53 packer: 2018/05/25 10:24:53 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:24:53 packer: 2018/05/25 10:24:53 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:24:58 packer: 2018/05/25 10:24:58 [INFO] Attempting WinRM connection...
+2018/05/25 10:24:58 packer: 2018/05/25 10:24:58 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:24:58 packer: 2018/05/25 10:24:58 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:24:58 packer: 2018/05/25 10:24:58 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:25:03 packer: 2018/05/25 10:25:03 [INFO] Attempting WinRM connection...
+2018/05/25 10:25:03 packer: 2018/05/25 10:25:03 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:25:03 packer: 2018/05/25 10:25:03 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:25:03 packer: 2018/05/25 10:25:03 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:25:08 packer: 2018/05/25 10:25:08 [INFO] Attempting WinRM connection...
+2018/05/25 10:25:08 packer: 2018/05/25 10:25:08 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:25:08 packer: 2018/05/25 10:25:08 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:25:08 packer: 2018/05/25 10:25:08 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:25:13 packer: 2018/05/25 10:25:13 [INFO] Attempting WinRM connection...
+2018/05/25 10:25:13 packer: 2018/05/25 10:25:13 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:25:13 packer: 2018/05/25 10:25:13 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:25:13 packer: 2018/05/25 10:25:13 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:25:18 packer: 2018/05/25 10:25:18 [INFO] Attempting WinRM connection...
+2018/05/25 10:25:18 packer: 2018/05/25 10:25:18 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:25:18 packer: 2018/05/25 10:25:18 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:25:18 packer: 2018/05/25 10:25:18 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:25:23 packer: 2018/05/25 10:25:23 [INFO] Attempting WinRM connection...
+2018/05/25 10:25:23 packer: 2018/05/25 10:25:23 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:25:23 packer: 2018/05/25 10:25:23 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:25:23 packer: 2018/05/25 10:25:23 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:25:28 packer: 2018/05/25 10:25:28 [INFO] Attempting WinRM connection...
+2018/05/25 10:25:28 packer: 2018/05/25 10:25:28 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:25:28 packer: 2018/05/25 10:25:28 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:25:28 packer: 2018/05/25 10:25:28 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:25:33 packer: 2018/05/25 10:25:33 [INFO] Attempting WinRM connection...
+2018/05/25 10:25:33 packer: 2018/05/25 10:25:33 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:25:33 packer: 2018/05/25 10:25:33 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:25:33 packer: 2018/05/25 10:25:33 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:25:38 packer: 2018/05/25 10:25:38 [INFO] Attempting WinRM connection...
+2018/05/25 10:25:38 packer: 2018/05/25 10:25:38 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:25:39 packer: 2018/05/25 10:25:39 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:25:39 packer: 2018/05/25 10:25:39 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:25:44 packer: 2018/05/25 10:25:44 [INFO] Attempting WinRM connection...
+2018/05/25 10:25:44 packer: 2018/05/25 10:25:44 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:25:44 packer: 2018/05/25 10:25:44 [ERROR] connection error: http response error: 401 - invalid content type
+2018/05/25 10:25:44 packer: 2018/05/25 10:25:44 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2018/05/25 10:25:49 packer: 2018/05/25 10:25:49 [INFO] Attempting WinRM connection...
+2018/05/25 10:25:49 packer: 2018/05/25 10:25:49 [DEBUG] connecting to remote shell using WinRM
+2018/05/25 10:25:54 packer: 2018/05/25 10:25:54 Checking that WinRM is connected with: 'powershell.exe -EncodedCommand aQBmACAAKABUAGUAcwB0AC0AUABhAHQAaAAgAHYAYQByAGkAYQBiAGwAZQA6AGcAbABvAGIAYQBsADoAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAKQB7ACQAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAPQAnAFMAaQBsAGUAbgB0AGwAeQBDAG8AbgB0AGkAbgB1AGUAJwB9ADsAIABlAGMAaABvACAAIgBXAGkAbgBSAE0AIABjAG8AbgBuAGUAYwB0AGUAZAAuACIA'
+2018/05/25 10:25:55 packer: 2018/05/25 10:25:55 [INFO] starting remote command: powershell.exe -EncodedCommand aQBmACAAKABUAGUAcwB0AC0AUABhAHQAaAAgAHYAYQByAGkAYQBiAGwAZQA6AGcAbABvAGIAYQBsADoAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAKQB7ACQAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAPQAnAFMAaQBsAGUAbgB0AGwAeQBDAG8AbgB0AGkAbgB1AGUAJwB9ADsAIABlAGMAaABvACAAIgBXAGkAbgBSAE0AIABjAG8AbgBuAGUAYwB0AGUAZAAuACIA
+2018/05/25 10:26:00 packer: 2018/05/25 10:26:00 [INFO] command 'powershell.exe -EncodedCommand aQBmACAAKABUAGUAcwB0AC0AUABhAHQAaAAgAHYAYQByAGkAYQBiAGwAZQA6AGcAbABvAGIAYQBsADoAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAKQB7ACQAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAPQAnAFMAaQBsAGUAbgB0AGwAeQBDAG8AbgB0AGkAbgB1AGUAJwB9ADsAIABlAGMAaABvACAAIgBXAGkAbgBSAE0AIABjAG8AbgBuAGUAYwB0AGUAZAAuACIA' exited with code: 0
+2018/05/25 10:26:00 ui: [0;32m    virtualbox-iso: WinRM connected.[0m
+2018/05/25 10:26:00 packer: 2018/05/25 10:26:00 Connected to machine
+2018/05/25 10:26:00 ui: [1;32m==> virtualbox-iso: Connected to WinRM![0m
+2018/05/25 10:26:00 packer: 2018/05/25 10:26:00 VBoxManage --version output: 5.2.12r122591
+2018/05/25 10:26:00 packer: 2018/05/25 10:26:00 VirtualBox version: 5.2.12
+2018/05/25 10:26:00 ui: [1;32m==> virtualbox-iso: Uploading VirtualBox version info (5.2.12)[0m
+2018/05/25 10:26:04 packer: 2018/05/25 10:26:04 Uploading file to '.vbox_version'
+2018/05/25 10:26:12 packer: 2018/05/25 10:26:12 Not uploading guest additions since mode is not upload
+2018/05/25 10:26:12 packer: 2018/05/25 10:26:12 Running the provision hook
+2018/05/25 10:26:12 [INFO] (telemetry) Starting provisioner powershell
+2018/05/25 10:26:12 ui: [1;32m==> virtualbox-iso: Provisioning with Powershell...[0m
+2018/05/25 10:26:12 packer: 2018/05/25 10:26:12 Found command: ipconfig
+2018/05/25 10:26:12 ui: [1;32m==> virtualbox-iso: Provisioning with powershell script: /var/folders/v8/zmvmmhjx52n9f8rfqr5cqlrc0000gn/T/packer-powershell-provisioner061385188[0m
+2018/05/25 10:26:12 packer: 2018/05/25 10:26:12 Opening /var/folders/v8/zmvmmhjx52n9f8rfqr5cqlrc0000gn/T/packer-powershell-provisioner061385188 for reading
+2018/05/25 10:26:12 packer: 2018/05/25 10:26:12 Uploading env vars to c:/Windows/Temp/packer-ps-env-vars-5b0756a6-33a7-d415-eb70-707b5efb1ff8.ps1
+2018/05/25 10:26:12 packer: 2018/05/25 10:26:12 [INFO] 84 bytes written for 'uploadData'
+2018/05/25 10:26:12 [INFO] 84 bytes written for 'uploadData'
+2018/05/25 10:26:16 packer: 2018/05/25 10:26:16 Uploading file to 'c:/Windows/Temp/packer-ps-env-vars-5b0756a6-33a7-d415-eb70-707b5efb1ff8.ps1'
+2018/05/25 10:26:24 packer: 2018/05/25 10:26:24 [INFO] 9 bytes written for 'uploadData'
+2018/05/25 10:26:24 [INFO] 9 bytes written for 'uploadData'
+2018/05/25 10:26:29 packer: 2018/05/25 10:26:29 Uploading file to 'c:/Windows/Temp/script-5b0756a6-d28e-2a4c-0862-449c2faa967c.ps1'
+2018/05/25 10:26:36 packer: 2018/05/25 10:26:36 [INFO] starting remote command: powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){$ProgressPreference='SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-5b0756a6-33a7-d415-eb70-707b5efb1ff8.ps1; &'c:/Windows/Temp/script-5b0756a6-d28e-2a4c-0862-449c2faa967c.ps1';exit $LastExitCode }"
+2018/05/25 10:26:39 packer: 2018/05/25 10:26:39 [INFO] command 'powershell -executionpolicy bypass "& { if (Test-Path variable:global:ProgressPreference){$ProgressPreference='SilentlyContinue'};. c:/Windows/Temp/packer-ps-env-vars-5b0756a6-33a7-d415-eb70-707b5efb1ff8.ps1; &'c:/Windows/Temp/script-5b0756a6-d28e-2a4c-0862-449c2faa967c.ps1';exit $LastExitCode }"' exited with code: 0
+2018/05/25 10:26:39 packer: 2018/05/25 10:26:39 [INFO] RPC endpoint: Communicator ended with: 0
+2018/05/25 10:26:39 [INFO] 492 bytes written for 'stdout'
+2018/05/25 10:26:39 [INFO] 0 bytes written for 'stderr'
+2018/05/25 10:26:39 [INFO] RPC client: Communicator ended with: 0
+2018/05/25 10:26:39 [INFO] RPC endpoint: Communicator ended with: 0
+2018/05/25 10:26:39 ui: [0;32m    virtualbox-iso:[0m
+2018/05/25 10:26:39 packer: 2018/05/25 10:26:39 [INFO] 492 bytes written for 'stdout'
+2018/05/25 10:26:39 packer: 2018/05/25 10:26:39 [INFO] 0 bytes written for 'stderr'
+2018/05/25 10:26:39 ui: [0;32m    virtualbox-iso: Windows IP Configuration[0m
+2018/05/25 10:26:39 packer: 2018/05/25 10:26:39 [INFO] RPC client: Communicator ended with: 0
+2018/05/25 10:26:39 ui: [0;32m    virtualbox-iso:[0m
+2018/05/25 10:26:39 ui: [0;32m    virtualbox-iso:[0m
+2018/05/25 10:26:39 ui: [0;32m    virtualbox-iso: Ethernet adapter Ethernet:[0m
+2018/05/25 10:26:39 ui: [0;32m    virtualbox-iso:[0m
+2018/05/25 10:26:39 ui: [0;32m    virtualbox-iso:    Connection-specific DNS Suffix  . :[0m
+2018/05/25 10:26:39 ui: [0;32m    virtualbox-iso:    Link-local IPv6 Address . . . . . : fe80::ec5f:c5a4:65d6:c403%12[0m
+2018/05/25 10:26:39 ui: [0;32m    virtualbox-iso:    IPv4 Address. . . . . . . . . . . : 10.0.2.15[0m
+2018/05/25 10:26:39 ui: [0;32m    virtualbox-iso:    Subnet Mask . . . . . . . . . . . : 255.255.255.0[0m
+2018/05/25 10:26:39 ui: [0;32m    virtualbox-iso:    Default Gateway . . . . . . . . . : 10.0.2.2[0m
+2018/05/25 10:26:39 ui: [0;32m    virtualbox-iso:[0m
+2018/05/25 10:26:39 ui: [0;32m    virtualbox-iso: Tunnel adapter isatap.{8B1472BA-920A-42B4-85F4-28C8535CD87F}:[0m
+2018/05/25 10:26:39 ui: [0;32m    virtualbox-iso:[0m
+2018/05/25 10:26:39 ui: [0;32m    virtualbox-iso:    Media State . . . . . . . . . . . : Media disconnected[0m
+2018/05/25 10:26:39 ui: [0;32m    virtualbox-iso:    Connection-specific DNS Suffix  . :[0m
+2018/05/25 10:26:39 [INFO] (telemetry) ending powershell
+2018/05/25 10:26:39 ui: [1;32m==> virtualbox-iso: Gracefully halting virtual machine...[0m
+2018/05/25 10:26:39 packer: 2018/05/25 10:26:39 Executing shutdown command: shutdown /s /t 0
+2018/05/25 10:26:39 packer: 2018/05/25 10:26:39 [INFO] starting remote command: shutdown /s /t 0
+2018/05/25 10:26:39 packer: 2018/05/25 10:26:39 [INFO] command 'shutdown /s /t 0' exited with code: 0
+2018/05/25 10:26:39 packer: 2018/05/25 10:26:39 Waiting max 15m0s for shutdown to complete
+2018/05/25 10:26:48 packer: 2018/05/25 10:26:48 VM shut down.
+2018/05/25 10:26:48 ui: [0;32m    virtualbox-iso: Removing floppy drive...[0m
+2018/05/25 10:26:48 packer: 2018/05/25 10:26:48 Executing VBoxManage: []string{"storageattach", "packer-virtualbox-iso-1527207590", "--storagectl", "Floppy Controller", "--port", "0", "--device", "0", "--medium", "none"}
+2018/05/25 10:26:48 packer: 2018/05/25 10:26:48 stdout:
+2018/05/25 10:26:48 packer: 2018/05/25 10:26:48 stderr:
+2018/05/25 10:26:48 packer: 2018/05/25 10:26:48 Trying for 10 minutes to remove floppy controller.
+2018/05/25 10:26:48 packer: 2018/05/25 10:26:48 Executing VBoxManage: []string{"storagectl", "packer-virtualbox-iso-1527207590", "--name", "Floppy Controller", "--remove"}
+2018/05/25 10:26:49 packer: 2018/05/25 10:26:49 stdout:
+2018/05/25 10:26:49 packer: 2018/05/25 10:26:49 stderr:
+2018/05/25 10:26:49 packer: 2018/05/25 10:26:49 Executing VBoxManage: []string{"storageattach", "packer-virtualbox-iso-1527207590", "--storagectl", "IDE Controller", "--port", "0", "--device", "1", "--medium", "none"}
+2018/05/25 10:26:49 packer: 2018/05/25 10:26:49 stdout:
+2018/05/25 10:26:49 packer: 2018/05/25 10:26:49 stderr:
+2018/05/25 10:26:49 packer: 2018/05/25 10:26:49 1 second timeout to ensure VM is really shutdown
+2018/05/25 10:26:50 ui: [1;32m==> virtualbox-iso: Preparing to export machine...[0m
+2018/05/25 10:26:50 ui: [0;32m    virtualbox-iso: Deleting forwarded port mapping for the communicator (SSH, WinRM, etc) (host port 4030)[0m
+2018/05/25 10:26:50 packer: 2018/05/25 10:26:50 Executing VBoxManage: []string{"modifyvm", "packer-virtualbox-iso-1527207590", "--natpf1", "delete", "packercomm"}
+2018/05/25 10:26:50 packer: 2018/05/25 10:26:50 stdout:
+2018/05/25 10:26:50 packer: 2018/05/25 10:26:50 stderr:
+2018/05/25 10:26:50 ui: [1;32m==> virtualbox-iso: Exporting virtual machine...[0m
+2018/05/25 10:26:50 ui: [0;32m    virtualbox-iso: Executing: export packer-virtualbox-iso-1527207590 --output output-virtualbox-iso/packer-virtualbox-iso-1527207590.ovf[0m
+2018/05/25 10:26:50 packer: 2018/05/25 10:26:50 Executing VBoxManage: []string{"export", "packer-virtualbox-iso-1527207590", "--output", "output-virtualbox-iso/packer-virtualbox-iso-1527207590.ovf"}
+2018/05/25 10:32:01 packer: 2018/05/25 10:32:01 stdout: Successfully exported 1 machine(s).
+2018/05/25 10:32:01 packer: 2018/05/25 10:32:01 stderr: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+2018/05/25 10:32:01 packer: 2018/05/25 10:32:01 Executing VBoxManage: []string{"storageattach", "packer-virtualbox-iso-1527207590", "--storagectl", "Floppy Controller", "--port", "0", "--device", "0", "--medium", "none"}
+2018/05/25 10:32:01 packer: 2018/05/25 10:32:01 stdout:
+2018/05/25 10:32:01 packer: 2018/05/25 10:32:01 stderr: VBoxManage: error: Could not find a controller named 'Floppy Controller'
+2018/05/25 10:32:01 packer: 2018/05/25 10:32:01 Error unregistering floppy: VBoxManage error: VBoxManage: error: Could not find a controller named 'Floppy Controller'
+2018/05/25 10:32:01 packer: 2018/05/25 10:32:01 Executing VBoxManage: []string{"storageattach", "packer-virtualbox-iso-1527207590", "--storagectl", "IDE Controller", "--port", "0", "--device", "1", "--medium", "none"}
+2018/05/25 10:32:01 packer: 2018/05/25 10:32:01 stdout:
+2018/05/25 10:32:01 packer: 2018/05/25 10:32:01 stderr: VBoxManage: error: No storage device attached to device slot 1 on port 0 of controller 'IDE Controller'
+2018/05/25 10:32:01 packer: VBoxManage: error: Details: code VBOX_E_OBJECT_NOT_FOUND (0x80bb0001), component SessionMachine, interface IMachine, callee nsISupports
+2018/05/25 10:32:01 packer: VBoxManage: error: Context: "DetachDevice(Bstr(pszCtl).raw(), port, device)" at line 403 of file VBoxManageStorageController.cpp
+2018/05/25 10:32:01 ui: [1;32m==> virtualbox-iso: Deregistering and deleting VM...[0m
+2018/05/25 10:32:01 packer: 2018/05/25 10:32:01 Executing VBoxManage: []string{"unregistervm", "packer-virtualbox-iso-1527207590", "--delete"}
+2018/05/25 10:32:02 packer: 2018/05/25 10:32:02 stdout:
+2018/05/25 10:32:02 packer: 2018/05/25 10:32:02 stderr: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+2018/05/25 10:32:02 packer: 2018/05/25 10:32:02 Deleting floppy disk: /var/folders/v8/zmvmmhjx52n9f8rfqr5cqlrc0000gn/T/packer474859155
+2018/05/25 10:32:02 [INFO] (telemetry) ending virtualbox-iso
+2018/05/25 10:32:02 ui: [1;32mBuild 'virtualbox-iso' finished.[0m
+2018/05/25 10:32:02 Builds completed. Waiting on interrupt barrier...
+2018/05/25 10:32:02 ui: 
+==> Builds finished. The artifacts of successful builds are:
+2018/05/25 10:32:02 machine readable: virtualbox-iso,artifact-count []string{"1"}
+2018/05/25 10:32:02 machine readable: virtualbox-iso,artifact []string{"0", "builder-id", "mitchellh.virtualbox"}
+2018/05/25 10:32:02 machine readable: virtualbox-iso,artifact []string{"0", "id", "VM"}
+2018/05/25 10:32:02 machine readable: virtualbox-iso,artifact []string{"0", "string", "VM files in directory: output-virtualbox-iso"}
+2018/05/25 10:32:02 machine readable: virtualbox-iso,artifact []string{"0", "files-count", "2"}
+2018/05/25 10:32:02 machine readable: virtualbox-iso,artifact []string{"0", "file", "0", "output-virtualbox-iso/packer-virtualbox-iso-1527207590-disk001.vmdk"}
+2018/05/25 10:32:02 machine readable: virtualbox-iso,artifact []string{"0", "file", "1", "output-virtualbox-iso/packer-virtualbox-iso-1527207590.ovf"}
+2018/05/25 10:32:02 machine readable: virtualbox-iso,artifact []string{"0", "end"}
+2018/05/25 10:32:02 ui: --> virtualbox-iso: VM files in directory: output-virtualbox-iso
+2018/05/25 10:32:02 [INFO] (telemetry) Finalizing.
+2018/05/25 10:32:03 waiting for all plugin processes to complete...
+2018/05/25 10:32:03 /usr/local/bin/packer: plugin process exited
+2018/05/25 10:32:03 /usr/local/bin/packer: plugin process exited
