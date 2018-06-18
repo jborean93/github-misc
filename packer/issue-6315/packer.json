@@ -1,0 +1,38 @@
+{
+    "builders": [
+        {
+            "type": "hyperv-iso",
+            "name": "freebsd11-hyperv",
+            "vm_name": "freebsd11-hyperv",
+            "boot_wait": "5s",
+            "boot_command": [
+                "<enter><wait5><spacebar><wait5>",
+                "<esc><wait>",
+                "boot -s<wait>",
+                "<enter><wait>",
+                "<wait10><wait10>",
+                "/bin/sh<enter><wait5>",
+                "mdmfs -s 100m md1 /tmp<enter><wait5>",
+                "mdmfs -s 100m md2 /mnt<enter><wait5>",
+                "dhclient -l /tmp/dhclient.lease.hn0 hn0<enter><wait5>",
+                "fetch -o /tmp/installerconfig http://{{ .HTTPIP }}:{{ .HTTPPort }}/vagrant.cfg<enter><wait10>",
+                "bsdinstall script /tmp/installerconfig ; cdcontrol -f /dev/cd0 eject ; reboot<wait><enter>"
+            ],
+            "disk_size": 32768,
+            "ram_size": 1024,
+            "cpu": 2,
+            "http_directory": "http",
+            "iso_url": "https://download.freebsd.org/ftp/releases/ISO-IMAGES/11.1/FreeBSD-11.1-RELEASE-amd64-disc1.iso",
+            "iso_checksum": "ff4c749ea0aaaceedb2432ba3e0fd0c1b64f5a72141b1ec06b9ced52b5de0dbf",
+            "iso_checksum_type": "sha256",
+            "ssh_username": "root",
+            "ssh_password": "vagrant",
+            "ssh_port": 22,
+            "ssh_timeout": "3600s",
+            "shutdown_command": "shutdown -p now",
+            "generation": 1,
+            "communicator": "ssh",
+            "guest_additions_mode": "disable"
+        }
+    ]
+}

@@ -1,4 +1,4 @@
-# GitHub Issur/PR
+# GitHub Issue/PR
 
 Test for [6219](https://github.com/hashicorp/packer/pull/6219)
 

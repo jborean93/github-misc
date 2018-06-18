@@ -1,4 +1,4 @@
-# GitHub Issur/PR
+# GitHub Issue/PR
 
 Test for [6285](https://github.com/hashicorp/packer/issues/6205)
 
